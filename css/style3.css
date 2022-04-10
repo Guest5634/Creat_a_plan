@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+         url('../fonts/fraunces-v10-latin-900.woff2') format('woff2'), 
+         url('../fonts/fraunces-v10-latin-900.woff') format('woff'); 
+}
+
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/barlow-v11-latin-500.woff2') format('woff2'), 
+         url('../fonts/barlow-v11-latin-500.woff') format('woff'); 
+  }
+ 
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/barlow-v11-latin-700.woff2') format('woff2'), 
+         url('../fonts/barlow-v11-latin-700.woff') format('woff'); 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px; 
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+   list-style: none;
+}
+
+img{
+    vertical-align: middle;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 24px;
+    padding-right: 24px;
+
+}
+
+.header__container{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.header__list{
+    display: flex;
+    width: 283px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header__link{
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    color: #83888F;
+}
+
+.header__link:hover{
+    color: #0E8784;
+}
